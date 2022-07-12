@@ -1,0 +1,44 @@
+/* Header & Nav */
+.nav{
+  background-color: var(--container-color-dark);
+  padding-top: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  &__shape{
+    width: 200px;
+    height: 200px;
+    background-color: var(--first-color-shape);
+    border-radius: 50%;
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+    filter: bluer(90px);
+  }
+
+  &__close{
+    position: relative;
+    display: inline-flex;
+    font-size: 1.8rem;
+    color: var(--text-color-dark);
+    cursor: pointer;
+    margin-bottom: 3.5rem;
+  }
+
+  &__img{
+    width: 70px;
+  }
+
+  &__mask{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(224deg,
+                hsla(277, 81%, 55%, 1) -2%,
+                hsla(277, 97%, 83%, 1) 97%);
+    border-radius: 1.5rem;
+  }
+}
+
